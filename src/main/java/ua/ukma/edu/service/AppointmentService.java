@@ -3,6 +3,8 @@ package ua.ukma.edu.service;
 import ua.ukma.edu.exceptions.ValidationException;
 import java.util.logging.Logger;
 
+
+
 public abstract class AppointmentService implements ProcessInterface{
     private static final Logger log = Logger.getLogger(AppointmentService.class.getName());
 
@@ -23,6 +25,8 @@ public abstract class AppointmentService implements ProcessInterface{
     private void validate(){
 
     }
+    private void execute(){
 
-    private void execute(){}
+    }
+
 }
